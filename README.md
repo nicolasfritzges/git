@@ -1,4 +1,4 @@
-# git - Comandos Básicos
+# git - Uso y Comandos Básicos
 
 - [x] AleDC
 
@@ -148,10 +148,24 @@ git tag -a  v2.0.1 c62704e    -m "memsaje que quiera poner"
 ```
 git show v2.0.0.1
 ```
+____________________________________________________________________________________________________________
+
+###### Asociar carpeta local con github
+
+1) Loguearse en la web de github y crear un nuevo repositorio
+2) Localmente en la terminal, ir a la carpeta que se quiere subir al repo creado en el paso 1
+3) git init
+4) git add .
+5) git commit -m "primer commit"
+6) git remote add origin https://github.com/aledc7/nombre_repo.git
+7) git push -u origin master (pedirá user y pass)
+
+Con estos pasos se empieza a controlar una carpeta local con git.
+
 
 - clonar un repositorio
 ```
-git clone https://github.....
+git clone https://github.....ruta completa
 ```
 
 
