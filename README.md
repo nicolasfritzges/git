@@ -70,13 +70,15 @@ git help
 ```
 git config --global alias.nombre "comando_git_para_ese_alias"
 
-aqui un ejemplo real que crea un alias llamado 'cabecera' para ver en que rama nos encontramos, el comando original es el que se encuentra entre comillas. Aquí el ejemplo completo:
+aqui un ejemplo real que crea un alias llamado 'cabecera' para ver en que rama nos encontramos,
+el comando original es el que se encuentra entre comillas. Aquí el ejemplo completo:
 
 git config --global alias.cabecera "log --oneline --decorate --all --graph"
 
 ```
 
-- listar todos los alias que se hayan creado, como el que se hizo arriba. Puede que existan alias creados predeterminadamente.
+- listar todos los alias que se hayan creado, como el que se hizo arriba. 
+  Puede que existan alias creados predeterminadamente.
 ```
 git config --get-regexp alias
 ```
