@@ -18,6 +18,12 @@ git config --global user.name "aledc7"
 git config --global user.email "aledc@gmail.com"
 ```
 
+- Para desloguearse
+```
+git config --global --unset user.name
+git config --global --unset user.email
+```
+
 - para controlar una carpeta con git, se debe correr este comando por única vez
 ```
 git init
