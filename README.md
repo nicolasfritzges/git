@@ -34,6 +34,14 @@ git init
 git status
 ```
 
+- vincular repo local con repo en github
+```
+git remote add origin https://github.com/aledc7/vueJS-2.git
+git push -u origin master
+```
+
+
+
 - Agregar todos los archivos en rojo que no se estén controloando dentro de una carpeta.
 - En vez del . se puede especificar un archivo particular en caso de que no se quiera agregar toda la carpeta.
 ```
