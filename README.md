@@ -53,6 +53,19 @@ git add .
 git commit -m  "texto del commit"
 ```
 
+- Descartar todos los cambios realizados (en caso de que no se quiera modificar nada)
+
+```
+git checkout -- .
+```
+
+- Descartar cámbios solo en un archivo específico
+
+
+```
+git checkout -- archivo_a_descartar_cambios.php
+```
+
 
 - mostrar los últimos cámbios, literalmente muestra el código de lo que se haya cambiado.
 ```
