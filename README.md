@@ -145,8 +145,10 @@ git branch  nombre_rama
 ```
 
 - Listar todas las ramas y saber cual tiene el HEAD
+
 ```
-git log --oneline --decorate --all --graph
+git branch -a
+
 ```
 
 - Pasar el head a otra rama
