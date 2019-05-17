@@ -207,5 +207,33 @@ git clone https://github.....ruta completa
 ```
 
 
+###### Git Ignore
+
+Para que Git ignore archivos o carpetas que le indiquemos, estos deben estar declarados en el archivo llamado __.gitignore__
+
+Pero si el archivo ya fue agregado previamente, es posible que GIT no ignore estos archivos, incluso estando declarado en el git ignore.  
+Para solucionar esto, es necesario borrar estos archivos del cache de git.
+
+Este comando borrará un archivo especifico del cache de git, de esta manera git dejará de controlar el archivo indicado.
+```js
+git rm -r --cached nombre_archivo.js
+```
+
+Si queremos borrar el cache completo: 
+```js
+git rm -r --cached .
+```
+
+luego de este paso, será necesario agregar nuevamente a git los archivos de nuestro proyecto con este comando:
+
+```js
+git add . 
+```
+Finalmente hacemos un commit para guardar todos estos cambios.
+```js
+git commit -m "Ahora si git ignorará todos los archivos de mi gitignore"
+```
+
+
 
 
