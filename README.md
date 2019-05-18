@@ -1,5 +1,8 @@
 # git - Uso y Comandos Básicos
 
+[<img src="https://github.com/aledc7/PHP-Certification/blob/master/aledc-logo.png?raw=true">](https://aledc.com)
+
+
 - [x] AleDC
 
 #### Este documento lista los comandos mas utilizados en git
