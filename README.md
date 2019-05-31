@@ -46,11 +46,21 @@ git init
 git status
 ```
 
-- Vincular repo local con repo en github
+
+
+
+- Vincular repo local con repo en github.
 ```
-git remote add origin https://github.com/aledc7/vueJS-2.git
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:aledc7/nombre-repo.git
 git push -u origin master
 ```
+
+
+
+
 
 
 
