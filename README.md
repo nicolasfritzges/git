@@ -59,6 +59,37 @@ git push -u origin master
 ```
 
 
+# Ignorar Archivos Untracked (en Rojo) con -n primero se observa lo que se va a borrar
+```
+git clean -n
+```
+
+Then when you are comfortable (because it will delete the files for real!) use the -f option:
+
+Luego con el -f se ejecuta la opcion y se descartan los cambios hechos en los archivos en rojo.
+```
+git clean -f
+````
+
+Here are some more options for you to delete directories, files, ignored and non-ignored files
+
+To remove directories, run:
+
+```
+git clean -fd
+````
+
+To remove ignored files, run 
+````
+git clean -fX
+````
+
+To remove ignored and non-ignored files, run
+````
+git clean -fx
+````
+
+Note the case difference on the X for the two latter commands.
 
 
 
