@@ -15,14 +15,13 @@ Añadir archivos al escenario (stage), se podría decir que es como tomarle una 
 git add nombre_del_archivo
 ```
 
-```
 # Añadir todo en el directorio actual
-```js
 ```
 git add --all
 ```
-```
+
 # O bien
+
 ```js
 git add .
 ```
