@@ -31,8 +31,8 @@ git add .
 git add nombre_del_archivo
  ```
  
-# Añadir todo en el directorio actual
-Mostrar diferencias, con esto podemos ver como se encuentra nuestro archivo cuando estaba consolidad en comparación a como lo tenemos actualmente.
+# Mostrar diferencias  
+Con esto podemos ver como se encuentra nuestro archivo cuando estaba consolidad en comparación a como lo tenemos actualmente.
 ```
 git diff
 ```
