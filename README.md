@@ -52,13 +52,20 @@ git status
 
 
 
-
 - Vincular repo local con repo en github.
 ```
 git init
 git add .
 git commit -m "first commit"
 git remote add origin git@github.com:aledc7/nombre-repo.git
+
+// Hacer un pull de lo actual antes de hacer un push
+git pull origin master
+
+// en caso de que tire un error de urelated agregarle este parámetro.
+git pull origin master --allow-unrelated-histories
+
+// Finalmente hacemos el push
 git push -u origin master
 ```
 
