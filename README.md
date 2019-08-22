@@ -289,6 +289,32 @@ Finalmente hacemos un commit para guardar todos estos cambios.
 git commit -m "Ahora si git ignorará todos los archivos de mi gitignore"
 ```
 
+### Automatizando un Commit y Push
+
+Script para automatizar todo el proceso de un push, agregando primero los archivos con add, luego haciendo el commit, y finalmente el push a la rama master.   
+Para crear este script, primero es necesario saber en que carpeta del servidor linux se encuentra git.  
+Esto puede saberse con este commando:   
+```php
+whereis git
+````
+
+Una vez que tengo este dato, ya me es posible crear el script de autopush.
+
+Este es un ejemplo completo y funcional de un script de autopush
+
+```php
+#!/bin/bash
+# Automatizando el commit y push
+
+# Agrego a git todos los archivos nuevos con extension .gz
+cd /home/aledc/software/systems && /usr/bin/git add *.gz
+
+# commit automatico de la carpeta backups
+cd /home/aledc/software/systems && /usr/bin/git commit -m "push automatico de los archivos *.gz de la carpeta backups del sistema"
+
+# push automatico del commit anterior
+cd /home/aledc/software/systems && /usr/bin/git push origin master
+````
 
 
 
