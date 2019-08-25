@@ -266,7 +266,10 @@ git clone https://github.....ruta completa
 
 Para que Git ignore archivos o carpetas que le indiquemos, estos deben estar declarados en el archivo llamado __.gitignore__
 
-Pero si el archivo ya fue agregado previamente, es posible que GIT no ignore estos archivos, incluso estando declarado en el git ignore.  
+# Reinicia CACHE de git .
+## En caso de que git NO IGNORE a ciertos archivos o carpetas
+
+Si el archivo ya fue agregado previamente, es posible que GIT no ignore estos archivos, incluso estando declarado en el git ignore.  
 Para solucionar esto, es necesario borrar estos archivos del cache de git.
 
 Este comando borrará un archivo especifico del cache de git, de esta manera git dejará de controlar el archivo indicado.
