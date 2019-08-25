@@ -189,7 +189,7 @@ git commit --amend -m  "nuevo texto del commit"
 git rm
 ```
 
-- Hacer un viaje en el tiempo hasta un commit específico, todo el código será reemplazado por el del commit indicado.
+- Hacer un RESET hasta un commit específico, todo el código será reemplazado por el del commit indicado.
 ```php
 git reset --hard e37db00
 ```
