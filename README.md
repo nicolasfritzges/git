@@ -75,7 +75,7 @@ git push -u origin master
 git clean -n
 ```
 
-Then when you are comfortable (because it will delete the files for real!) use the -f option:
+
 
 Luego con el -f se ejecuta la opcion y se descartan los cambios hechos en los archivos en rojo.
 ```php
@@ -84,20 +84,21 @@ git clean -f
 
 Here are some more options for you to delete directories, files, ignored and non-ignored files
 
-To remove directories, run:
+Para borar directorios:
 
 ```php
 git clean -fd
 ````
 
-To remove ignored files, run 
-```php
-git clean -fX
-````
-
-To remove ignored and non-ignored files, run
+Para borrar filas ignoradas
 ```php
 git clean -fx
+````
+
+Para borrar ignorados y no ignorados, poner la X en mayúscula
+
+```php
+git clean -fX
 ````
 
 Note the case difference on the X for the two latter commands.
@@ -141,8 +142,7 @@ git diff
 git log
 ```
 
-- Similar a git log pero mucho mas completo, este es el que hay que utilizar.
-```php
+- Similar a git log pero mas completo.
 git reflog
 ```
 
@@ -151,17 +151,11 @@ git reflog
 git reset nombre_archivo.css
 ```
 
-
-- Este no hace falta explicarlo
-```php
-git help
-```
-
 - Es posible crear 'alias'  que reemplacen largos comandos, de esta manera se logra escribir menos.
 ```php
 git config --global alias.nombre "comando_git_para_ese_alias"
 
-aqui un ejemplo real que crea un alias llamado 'cabecera' para ver en que rama nos encontramos,
+Aqui un ejemplo real que crea un alias llamado 'cabecera' para ver en que rama nos encontramos,
 el comando original es el que se encuentra entre comillas. Aquí el ejemplo completo:
 
 git config --global alias.cabecera "log --oneline --decorate --all --graph"
@@ -266,6 +260,7 @@ git clone https://github.....ruta completa
 
 Para que Git ignore archivos o carpetas que le indiquemos, estos deben estar declarados en el archivo llamado __.gitignore__
 
+____________________________________________________________________________________________________________
 # Reinicia CACHE de git .
 ## En caso de que git NO IGNORE a ciertos archivos o carpetas
 
