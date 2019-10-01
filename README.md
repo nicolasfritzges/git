@@ -122,6 +122,10 @@ git commit -m  "texto del commit"
 
 ```php
 git checkout -- .
+
+# Para descartar carpetas:
+
+git clean -df
 ```
 
 - Descartar cámbios solo en un archivo específico
