@@ -1,6 +1,6 @@
-![aledc.tk](https://raw.githubusercontent.com/aledc7/git/master/git1.png)
-![aledc.tk](https://raw.githubusercontent.com/aledc7/git/master/git2.png)
-# Git - Control de Versiones 
+![aledc.tk](https://raw.githubusercontent.com/aledc7/git/master/git2.png)  
+![aledc.tk](https://raw.githubusercontent.com/aledc7/git/master/git1.png)  
+
 ## Uso y Comandos Básicos
 
 [![aledc.com](https://github.com/aledc7/Scrum-Certification/blob/master/recursos/aledc.com.svg)](https://aledc.com)
