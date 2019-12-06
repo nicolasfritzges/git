@@ -32,6 +32,23 @@ git config --global credential.helper store
 ```
 
 
+- Elegir el editor de nuestra preferencia para Git, en este caso elijo Vim.   
+
+
+
+```php
+# Colocando este comando en la terminal
+git config --global core.editor "vim"
+
+
+# Setearlo en una variable local en el archivo de configuracion:
+
+# Primero editar el archivo de cofiguración de git
+git config --global --edit
+
+# Luego agregar esta variable
+export GIT_EDITOR=vim
+````
 
 
 - Para desloguearse
