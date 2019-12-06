@@ -1,3 +1,5 @@
+![aledc.tk](https://raw.githubusercontent.com/aledc7/git/master/git1.png)
+![aledc.tk](https://raw.githubusercontent.com/aledc7/git/master/git2.png)
 # Git - Control de Versiones 
 ## Uso y Comandos Básicos
 
