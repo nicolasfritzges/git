@@ -341,7 +341,7 @@ cd /home/aledc/software/systems && /usr/bin/git push origin master
 
 ## Git en Windows
 
-Si se recibe el siguente warnint:
+Si se recibe el siguente warning:
 
 warning: LF will be replaced by CRLF in ....
 
