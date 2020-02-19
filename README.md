@@ -339,4 +339,15 @@ cd /home/aledc/software/systems && /usr/bin/git push origin master
 ````
 
 
+## Git en Windows
+
+Si se recibe el siguente warnint:
+
+warning: LF will be replaced by CRLF in ....
+
+correr este comando:
+```php
+git config core.autocrlf true
+````
+
 
