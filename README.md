@@ -73,19 +73,14 @@ git status
 
 
 - Vincular repo local con repo en github.
+Primeramente crear un repo nuevo en github, no tildar la opción para que cree el archivo readme.md.   
+Luego que tengamos en repo creado, copiar la url del proyecto y seguir estos pasos:   
+
 ```php
 git init
 git add .
 git commit -m "first commit"
-git remote add origin git@github.com:aledc7/nombre-repo.git
-
-// Hacer un pull de lo actual antes de hacer un push
-git pull origin master
-
-// en caso de que tire un error de urelated agregarle este parámetro.
-git pull origin master --allow-unrelated-histories
-
-// Finalmente hacemos el push
+git remote add origin https://github.com/aledc7/nombre_repo.git
 git push -u origin master
 ```
 
