@@ -82,7 +82,19 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/aledc7/nombre_repo.git
 git push -u origin master
+
 ```
+
+Si al hacer pull te tira este error:
+```php
+refusing to merge unrelated histories
+````
+
+se soluciona de la siguiente manera:   
+```php
+git pull origin nombre_rama --allow-unrelated-histories
+````
+
 
 
 # Ignorar Archivos Untracked (en Rojo) con -n primero se observa lo que se va a borrar
