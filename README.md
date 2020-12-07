@@ -301,6 +301,7 @@ Para solucionar esto, es necesario borrar estos archivos del cache de git.
 Este comando borrará un archivo especifico del cache de git, de esta manera git dejará de controlar el archivo indicado.
 ```js
 git rm -r --cached nombre_archivo.js
+git rm -r --cached nombre_carpeta/
 ```
 
 Si queremos borrar el cache completo: 
